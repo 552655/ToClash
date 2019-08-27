@@ -11,7 +11,7 @@ class JSONObject:
 
 
 def getallNodes(file):
-    # 得到所有节点
+    # URl="https://www.flycloud.site/link/20d9Qzz1dPRyWSWz?mu=3"
     with open(file, 'r') as f:
         nodes = []
         out = json.load(f, object_hook=JSONObject)
